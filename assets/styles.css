@@ -16,8 +16,34 @@ a {
     background-color: transparent
 }
 
+.main h1 {
+    font-family: Copperplate
+}
+
+.main h2 {
+    font-family: Copperplate;
+    font-style: oblique
+}
+
+.main p {
+    font-family: Courier New
+}
+
+.main-pic {
+    padding: 0;
+    margin: 0
+}
+
 .content {
-    background: #F2E8C9;
+    background: #F2E8C9
+}
+
+.content h1 {
+    text-align: center
+}
+
+.content ul {
+    padding-inline-start: 0px;
     text-align: center
 }
 
@@ -25,7 +51,6 @@ a {
     text-decoration: none;
     font-weight: 300;
     display: block;
-    padding: 1px 5px;
     font-size: 1.2rem;
     color: black
 }
