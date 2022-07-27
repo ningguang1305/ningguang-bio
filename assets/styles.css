@@ -2,9 +2,20 @@ html {
     line-height: 1.15
 }
 
+.element {
+    padding: 0;
+    margin-bottom: 0;
+}
+
 body {
-    margin: 0;
-    background: #A8D8FF
+    display: table-row;
+    background-color: #FFAA64;
+    color: #FFF5A5
+}
+
+.picture1 {
+    display: grid;
+    align-content: center;
 }
 
 a:link {text-decoration:none;}
@@ -17,16 +28,16 @@ a {
 }
 
 .main h1 {
-    font-family: Copperplate
+    font-family: Comic Sans MS
 }
 
 .main h2 {
-    font-family: Copperplate;
+    font-family: Comic Sans MS ;
     font-style: oblique
 }
 
 .main p {
-    font-family: Courier New
+    font-family: Tahoma
 }
 
 .main-pic {
@@ -35,7 +46,8 @@ a {
 }
 
 .content {
-    background: #F2E8C9
+    background-color: #FF8264;
+    padding: 5px 15px;
 }
 
 .content h1 {
@@ -47,10 +59,15 @@ a {
     text-align: center
 }
 
+.chapter1 {
+    background-color: #FF6464;
+    padding: 5px 15px
+}
+
 .primary-nav div {
     text-decoration: none;
     font-weight: 300;
     display: block;
     font-size: 1.2rem;
-    color: black
+    color: #FFF5A5
 }
