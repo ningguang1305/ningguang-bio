@@ -8,7 +8,8 @@ html {
 }
 
 body {
-    display: table-row;
+    display: block;
+    margin: 0;
     background-color: #FFAA64;
     color: #FFF5A5
 }
@@ -46,7 +47,7 @@ a {
 }
 
 .content {
-    background-color: #FF8264;
+    margin: 0 auto;
     padding: 5px 15px;
 }
 
@@ -60,8 +61,18 @@ a {
 }
 
 .chapter1 {
-    background-color: #FF6464;
-    padding: 5px 15px
+    background-color: #FF8264;
+    padding: 5px 0px
+}
+
+.chapter1-new {
+    margin: 0 auto;
+    width: 50%
+}
+
+.chapter2 {
+    margin: 0 auto;
+    width: 50%
 }
 
 .primary-nav div {
@@ -69,5 +80,20 @@ a {
     font-weight: 300;
     display: block;
     font-size: 1.2rem;
-    color: #FFF5A5
+    color: #FFF5A5;
+}
+
+footer {
+    background-color: #FF6464;
+}
+
+footer .foot {
+    margin: 0 auto;
+    padding: 5%;
+    width: 15%;
+    font-size: 3.6rem
+}
+
+.foot p {
+    margin: 0;
 }
